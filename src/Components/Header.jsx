@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/Images/image-removebg-preview.png';
+import logo from '../assets/Images/removedBg.png';
 import {HiHome,HiMagnifyingGlass,HiStar,HiPlayCircle,HiTv} from "react-icons/hi2";
 import{
     HiPlus,HiDotsVertical
@@ -34,8 +34,8 @@ const menu=[
 
   return (
     
-    <div>
-    <img src={logo} alt="" className='w-[80px] object-cover md:w-[150px]' />
+    <div className='flex item-center gap-8' >
+    <img src={logo} alt="" className='w-[10px] object-cover md:w-[48px] border-2px pl-2 ml-3' />
     {menu.map((item, index) => (
       <HeaderItem key={index} name={item.name} Icon={item.icon} />
     ))}

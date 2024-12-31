@@ -2,9 +2,10 @@ import React from 'react'
 
 function HeaderItem({name,Icon}) {
   return (
-    <div className='header-item fl' >
-      {Icon && <Icon />} {/* Render the icon if it exists */}
-      <span>{name}</span> {/* Display the name */}
+    <div className=' flex item-center gap-3 cursor-pointer text-[14px] font-semibold mt-3' >
+    <Icon/ >
+<h2>{name}</h2>
+
     </div>
   )
 }
