@@ -5,6 +5,7 @@ import{
     HiPlus,HiDotsVertical
 } from "react-icons/hi";
 import HeaderItem from './HeaderItem';
+import { CgPathExclude } from 'react-icons/cg';
 
 function Header() {
 const menu=[
@@ -28,6 +29,11 @@ const menu=[
     },  {
         name:'SERIES',
         icon:HiTv
+    },
+    {
+        name:'PatientDetails',
+        icon:HiTv
+        
     }
 ]
 
