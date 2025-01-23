@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+// import '../../src/App.css';
 
 interface Patient {
   fullName: string | null;
